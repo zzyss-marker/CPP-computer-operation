@@ -33,5 +33,7 @@ int main()
         cin >> na >> wr >> pu >> pr;
         b[i].setBook(na, wr, pu, pr);
     }
+    for (int i = 0; i < 5; i++)
+        b[i].display();
     return 0;
 }
