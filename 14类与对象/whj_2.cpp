@@ -4,7 +4,7 @@ using namespace std;
 class Worker
 {
     int empId;
-    string name;
+    char name[32];
     char gender;
     double baseSalary;
     double bonus;
