@@ -1,7 +1,7 @@
 # C++-computer-operation
 
 
-# C++ 程序设计实践项目
+# C++ 程序设计实践项目    ![Github stars](https://img.shields.io/github/stars/zzyss-marker/CPP-computer-operation.svg)
 
 ## 项目简介
 这个项目是为东南大学成贤学院的学弟学妹们设计的，旨在提供学习 C++ 程序设计实践课程上机作业的资源。同时，这个项目也是为了方便自己在期末复习时查阅相关资料。
