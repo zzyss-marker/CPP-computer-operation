@@ -33,7 +33,8 @@ public:
 }
 };
 
-int main() {
+int main() 
+{
 
     Worker employee(101, "John Doe", 'M');
     employee.display();
