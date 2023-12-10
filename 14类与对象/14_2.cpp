@@ -10,7 +10,13 @@ class Worker
     double bonus;
     double totalSalary;
 public:
-    void setSalary(double base, double b) 
+	Worker (int I,string na,char sex)
+{
+	ID=I;
+	name=na;
+	gender=sex;
+}
+    	void setSalary(double base, double b) 
 {
         baseSalary = base;
         bonus = b;
@@ -29,12 +35,10 @@ public:
 
 int main() {
 
-    Worker employee(101, "John Doe", 'M', 50000.0, 10000.0);
-    cout << "Initial Details:" << endl;
+    Worker employee(101, "John Doe", 'M');
     employee.display();
 
     employee.setSalary(55000.0, 12000.0);
-    cout << "Updated Details:" << endl;
     employee.display();
 
     return 0;
