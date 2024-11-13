@@ -24,5 +24,14 @@
     <ClCompile Include="选做1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="顺序栈.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="栈选做1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="链栈.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
